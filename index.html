@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up🎾</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header class="header">
+
+    </header>
+    <main class="main">
+        <div class="background" id="background">
+            <h1 class="company">Tennis Girlies🎾</h1>
+            <video autoplay muted loop>
+                <source class="video" src="https://www.shutterstock.com/shutterstock/videos/1105598927/preview/stock-footage-hitting-tennis-ball-bw-animation-animated-isolated-d-athlete-with-racket-individual-sports.webm"
+                type="video/mp4">
+            </video>
+
+        </div>
+        <div class="sign-in-container">
+            <h2>Say Yes To 🎾</h2>
+            <form action="/server-endpoint" method="post">
+                <div class="input-group">
+                    <label for="firstname">FIRST NAME:</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="lastname">LAST NAME:</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phonenumber">PHONE NUMBER:</label>
+                    <input type="number" id="phonenumber" name="phonenumber" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="confirmpassword">CONFIRM PASSWORD:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Create Account</button>
+            </form>
+            <div class="already-have-account">Already have an account?Log in</div>
+        </div>        
+
+    </main>
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            Tlakuso
+          </p>
+    </footer>
+</body>
+</html>
